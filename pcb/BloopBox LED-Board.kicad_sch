@@ -6,8 +6,8 @@
 
   (title_block
     (title "BloopBox LED-Board")
-    (date "2022-12-01")
-    (rev "1.0")
+    (date "${DATE}")
+    (rev "${VERSION}")
     (company "Qetesh")
   )
 

@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "BloopBox LED-Board")
-    (date "2022-12-01")
-    (rev "1.0")
+    (date "${DATE}")
+    (rev "${VERSION}")
     (company "Qetesh")
   )
 
@@ -93,6 +93,9 @@
       (outputdirectory "")
     )
   )
+
+  (property "DATE" "~DATE~")
+  (property "VERSION" "~VERSION~")
 
   (net 0 "")
   (net 1 "/R")
@@ -292,8 +295,8 @@
   (gr_text "G" (at 151 105.25) (layer "F.SilkS") (tstamp 6bb8a2d1-21ab-43e2-9544-1ca9e06c4435)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "BloopBox\nLED Extender" (at 150 108) (layer "F.SilkS") (tstamp 8fa0e091-07fc-4387-8c52-f95815a60f62)
-    (effects (font (size 1.2 1.05) (thickness 0.2)))
+  (gr_text "BloopBox\nLED-Board" (at 150 108) (layer "F.SilkS") (tstamp 8fa0e091-07fc-4387-8c52-f95815a60f62)
+    (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
   (gr_text "R" (at 147 105.25) (layer "F.SilkS") (tstamp a66ef3da-8b88-4ace-8e74-4d57844682f7)
     (effects (font (size 1 1) (thickness 0.15)))
