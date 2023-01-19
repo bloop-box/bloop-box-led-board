@@ -1,5 +1,9 @@
 # Bloop Box LED Board
 
+Replaced by [Bloop Box LED Board with I2C](https://github.com/bloop-box/bloop-box-led-board-i2c)
+
+---
+
 [![CI](https://github.com/bloop-box/bloop-box-led-board/actions/workflows/ci.yml/badge.svg)](https://github.com/bloop-box/bloop-box-led-board/actions/workflows/ci.yml)
 
 ![LED Board 3D Render](https://bloop-box.github.io/bloop-box-led-board/3D/BloopBox%20LED-Board-3D_top.png)
